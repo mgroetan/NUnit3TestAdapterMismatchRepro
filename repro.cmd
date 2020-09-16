@@ -34,11 +34,19 @@ if "%RunWithTrxLogger%" equ "true" (
 )
 
 @echo.
+@echo.
+@echo.
+@echo ***************************************************************************************
 @echo * Running .NET Core tests (%RunMessage%)
+@echo ***************************************************************************************
 %RunNetCoreTests% %TestAdapterLoggerOption%
 
 @echo.
+@echo.
+@echo.
+@echo ***************************************************************************************
 @echo * Running .NET Framework tests (%RunMessage%)
+@echo ***************************************************************************************
 %RunNetFrameworkTests% %TestAdapterLoggerOption%
 
 endlocal
