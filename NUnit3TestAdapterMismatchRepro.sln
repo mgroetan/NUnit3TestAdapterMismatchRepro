@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectANetCore", "ProjectA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBNetFramework", "ProjectBNetFramework\ProjectBNetFramework.csproj", "{AE181DBB-225B-4475-8AFF-F078D116E419}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72CB30D3-7C2B-4590-84C0-CCD6EDA6FDA4}"
+	ProjectSection(SolutionItems) = preProject
+		repro.cmd = repro.cmd
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
