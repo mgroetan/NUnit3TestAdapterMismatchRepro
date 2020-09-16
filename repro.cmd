@@ -15,11 +15,6 @@ if %errorlevel% neq 0 (
 )
 
 call :RunTests false
-
-@echo.
-@echo * Deleting the NuGet packages directory, to simulate a build artifact in a release pipeline
-rmdir /S /Q packages
-
 call :RunTests true
 
 @echo.
